@@ -44,7 +44,7 @@ function App() {
 <>
 <input type='text' placeholder='Name..' onChange={(event)=>setNewName(event.target.value)}/>
 <input type='number' placeholder='Age..' onChange={(event)=>setNewAge(event.target.value)}/>
-<button onClick={createUser}>Create users23</button>
+<button onClick={createUser}>Create user</button>
 {users.map((user)=>{
   return (
     <div>
